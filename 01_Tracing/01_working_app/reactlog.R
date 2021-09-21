@@ -5,7 +5,7 @@ library(reactlog)
 reactlog_enable()
 
 # run a shiny app
-runApp(appDir = "app.R")
+runApp(appDir = "01_Tracing/01_working_app/")
 
 # once app has closed, display reactlog from shiny
 shiny::reactlogShow()
