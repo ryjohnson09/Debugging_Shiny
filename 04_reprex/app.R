@@ -1,3 +1,5 @@
+library(shiny)
+
 shinyApp(
   ui = fluidPage(
     selectInput("n", "N", 1:10),
